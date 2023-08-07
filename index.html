@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Jorge Pryjmak | Desarrollador de Software</title>
+</head>
+
+<body>
+        <!--MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">JP</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div  class="nav-responsive"  onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+   
+    </div>
+
+    <!--Seccion Inicio-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/jorge-pryjmak-perfil.jpg" alt="" >
+            </div>
+            <h1>JORGE SEBASTIAN PRYJMAK</h1>
+            <H2>Desarrollador de Software </H2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/jorge-sebastian-pryjmak/" target="_blank" title="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/SebastianPryjmak95" target="_blank" title="Github"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:sebastian.pryjmak@gmail.com" target="_blank" title="E-mail"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://t.me/seba_pry23" title="Telegram"><i class="fa-brands fa-telegram"></i></a>
+               
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Jorge sebastian Pryjmak</span>. Un estudiante apasionado de desarrollo de software y entusiasta de la tecnología. Desde que me sumergí en el mundo de la informática, descubrí una pasión por aprender y explorar todo lo relacionado con la tecnología y la electrónica. Cada desafío que encuentro es una oportunidad para investigar y descubrir cómo puedo mejorar y superar obstáculos.
+            
+            La disciplina y la organización son valores que considero fundamentales para alcanzar mis objetivos tanto en mis estudios como en mi vida profesional.
+        
+            Una de las cosas que más disfruto es compartir mis conocimientos con los demás. Transmitir ese entusiasmo y conocimiento es algo que me llena de satisfacción.
+            
+            Mi objetivo es seguir creciendo en el campo del desarrollo de software y la tecnología, explorar nuevas tecnologías emergentes y desafiantes, y contribuir al desarrollo de soluciones innovadoras y efectivas. Estoy emocionado de enfrentar nuevos desafíos y continuar aprendiendo y mejorando cada día.
+
+            Siendo una persona apasionada por la tecnología y con una actitud de aprendizaje continuo, estoy seguro de que puedo aportar un valor significativo a cualquier equipo de desarrollo o proyecto en el que participe. Estoy entusiasmado por las oportunidades que me esperan y por seguir creciendo en este     emocionante mundo tecnológico.</p>
+
+            <div class="fila">
+                <!-- datos personales-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            23-11-1995
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            11-2103-4640
+                        </li>
+                        <li>
+                            <strong>E-mail</strong>
+                            sebastian.pryjmak@gmail.com
+                        </li>
+                    
+                        <li>
+                            <strong>ubicacion</strong>
+                            Buenos Aires, Argentina
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <!--Intereses-->
+                <div class="col">
+                    <h3>Interes</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-linux"></i>
+                            <span>LINUX</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-swimming"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-laptop-medical"></i>
+                            <span>REPARACION </span>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+            <a href="dowloand/CV-Jorge.Sebastian.Pryjmak.pdf" download>
+                <button>
+                    descargar CV<i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!--SECCION SKILLS-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Technical Skill-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C#</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--Profesional Skills-->
+                <div class="col">
+                    <h3>Pogessional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>TRabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CURRICULUM-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                  <h3>Educación Y Cursos</h3>
+                  <div class="item izq">
+                        <h4>tecnicactura en Desarrollo De Software</h4>
+                        <span class="casa">Instituto de Formación Tecnica Superior Nº11</span>
+                        <span class="fecha">2022- actualmente</span>
+                        <p>El Técnico Superior en Desarrollo de dqduiqhduqdhqwiodhqodi
+                            qduiqwgdquiodgqugdqidhqiod
+                        </p>
+                        <div class="conectori">
+                             <div class="circuloi"></div>
+                        </div>
+                    </div> 
+                    <div class="item izq">
+                        <h4>Desarrollo Web Full Stack</h4>
+                        <span class="casa">Santader-fundacion pescar-educacionIT</span>
+                        <span class="fecha">2023-Actualemente</span>
+                        <p>capacitación de 6 meses como FullStack Developer formados con los siguientes cursos.</p><br>
+                            <ul>
+                                <li>Desarrollador web con HTML. </li>
+                                <li>Maquetador web avanzado. </li>
+                                <li>Javascript desde cero.</li>
+                                <li>Introducción al paradigma de objetos.</li>
+                                <li>GIT.</li>
+                                <li>Javascript desarrollador avanzado.</li>
+                                <li>Mongo DB fundamentos.</li>
+                                <li>Node.JS Back-End.</li>
+                                <li>React.JS Developer</li>
+                            </ul>
+                        <div class="conectori">
+                             <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Soporte IT</h4>
+                        <span class="casa">Google-Coursera</span>
+                        <span class="fecha">2023-Actualmente</span>
+                        <p>Este programa de capacitación, te sumerge en el mundo del soporte de TI y adquiere los conocimientos y habilidades necesarias para solucionar problemas y brindar asistencia eficaz a los usuarios de sistemas informáticos.</p>
+                        <div class="conectori">
+                             <div class="circuloi"></div>
+                        </div>
+                    </div>  
+                    <a href="https://drive.google.com/drive/u/0/folders/1ooO2QM6M67tIvNFXJTTiZxcrAC6wA9Rd" target="_blank">
+                        <button>
+                            Certificaciones <i class="fa-solid fa-magnifying-glass"></i>
+                            <span class="overlay"></span>
+                        </button>
+                        </a>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia de Trabajo</h3>
+                    <div class="item der">
+                          <h4>Seguridad</h4>
+                          <span class="casa">Cazadores</span>
+                          <span class="fecha">2019-2020</span>
+                         <ul>
+                            <li>vigilancia de las instalaciones del cliente, seguridad y protección de bienes y personas.</li><br>
+                            <li>Monitoreo de sistemas de seguridad, como cámaras de circuito
+                            cerrado y alarmas, paradetectar y prevenir incidentes</li><br>
+                            <li>Atención al clientes para brindar información y asistencia en temas de seguridad y protección</li>
+                         </ul>
+                          <div class="conectord">
+                               <div class="circulod"></div>
+                          </div>
+                    </div> 
+                    <div class="item der">
+                            <h4>Aux Mecanico</h4>
+                            <span class="casa">Coekiper</span>
+                            <span class="fecha">2019-2019</span>
+                            <ul>
+                                <li>Ayudar en el mantenimiento y reparación de equipos.</li><br>
+                                <li>Limpiar y preparar equipos.</li><br>
+                                <li>Suministrar herramientas y materiales.</li><br>
+                                <li>Realizar tareas de mantenimiento preventivo.</li><br>
+                                <li>Mantener el orden y la limpieza</li><br>
+                            </ul>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div> 
+                  <!--<div class="item der">
+                        <h4>Front developer</h4>
+                        <span class="casa">Nombre de compañia</span>
+                        <span class="fecha">2005-2008</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat illum praesentium consequatur provident at corrupti aliquid velit, molestias enim eum dicta repellat incidunt earum natus hic reiciendis vero, mollitia qui?</p>
+                      <div class="conectord">
+                          <div class="circulod"></div>
+                      </div>
+                    </div> --> 
+
+
+                 </div>
+              
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Fotografia</h3> <!--ACA REALIZE EL CAMBIO-->
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Proyecto</h3>
+                        <p>En Desarrollo</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--SECCION CONTACTO-->
+    <section id="contacto" class="contacto">
+     <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+            <!--Formulario-->
+            <div class="col">
+                <input type="text" placeholder="Tú Nombre">
+                <input type="text" placeholder="Número Telefono">
+                <input type="text" placeholder="Direccion de correo">
+                <input type="text" placeholder="Tema">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button>
+                    Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                </button>
+            </div>
+            <!--MAPA-->
+            <div class="col">
+               <img src="img/ubicacion.png" alt=""> 
+                <div class="info">
+                    <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                José C. Paz,Buenos Aires
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                LLamanos: 11-6000-0004
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: sebastian.pryjmak@gmail.com
+                            </li>
+                    </ul> 
+                </div>
+            </div>
+        </div>
+     </div>   
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/jorge-sebastian-pryjmak/" target="_blank" title="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/SebastianPryjmak95" target="_blank" title="Github"><i class="fa-brands fa-github"></i></a>
+            <a href="#" target="_blank" title="E-mail"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://t.me/seba_pry23" title="Telegram"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+        <h2>© Copyright 2023</h2>
+        <H3>jorge sebastian pryjmak</H3>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

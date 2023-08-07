@@ -73,7 +73,7 @@ html{
 /* SECCION INICIO */
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.2), rgba(30,35,38,1)),
-    url(/img/fondo.jpg);
+    url(../img/fondo.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -612,7 +612,7 @@ html{
 
 /*SECCION CONTACTO*/
 .contacto{
-    background-image: url(/img/contact_bg.png);/*tengo q arreglar xq no puedo poner fondo de una imagen*/
+    background-image: url(../img/contact_bg.png);/*tengo q arreglar xq no puedo poner fondo de una imagen*/
     background-color: #1e2326;
     color: #fff;
     padding: 50px 0;
@@ -751,7 +751,7 @@ footer .arriba{
         right: 0;
         top: 75px;
         background-color: #252a2e;
-        width: 180px;
+        width: 100%;
     }
     nav.responsive ul{
         display: block !important;
